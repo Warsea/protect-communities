@@ -203,13 +203,13 @@ const Home = () => {
           protect it.
         </Typography>
         <Typography variant="body1">
-          If a temple you know isn't added yet, feel free to create one
+          If a temple you know is not added yet, feel free to create one
           yourself.{" "}
         </Typography>
 
         <Typography variant="body1">
           {" "}
-          Let's us all help protect our minority brothers and sisters from
+          Let us all help protect our minority brothers and sisters from
           political vandalism.
         </Typography>
       </Box>
