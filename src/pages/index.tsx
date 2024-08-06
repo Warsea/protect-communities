@@ -193,7 +193,7 @@ const Home = () => {
             <Select
               labelId="division-filter-label"
               value={selectedDivision}
-              onChange={(e) => handleFilterChange(e)}
+              onChange={(e: any) => handleFilterChange(e)}
               label="Filter by Division"
             >
               <MenuItem value="All">All</MenuItem>
