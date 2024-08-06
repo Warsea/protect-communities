@@ -137,8 +137,12 @@ const Home = () => {
             aria-label="menu"
             sx={{ mr: 2 }}
           ></IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Protect Bangladeshi Minorites
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ color: "crimson", flexGrow: 1 }}
+          >
+            Community Shield
           </Typography>
         </Toolbar>
       </AppBar>
@@ -177,6 +181,37 @@ const Home = () => {
             />
           </Typography>
         </Container>
+      </Box>
+      <Box
+        sx={{
+          width: "100%",
+          padding: "40px 20px",
+          textAlign: "center",
+          backgroundColor: "#f0f0f0",
+        }}
+      >
+        <Typography
+          variant="h4"
+          sx={{ color: "#72230F", marginBottom: "20px" }}
+        >
+          Volunteer to help protect our establishments
+        </Typography>
+        <Typography variant="body1">
+          This is a simple way for our students to gather and help protect our
+          minority religious institutions. Find your local
+          temple/church/buddhist temple and join the whatsapp group to help
+          protect it.
+        </Typography>
+        <Typography variant="body1">
+          If a temple you know isn't added yet, feel free to create one
+          yourself.{" "}
+        </Typography>
+
+        <Typography variant="body1">
+          {" "}
+          Let's us all help protect our minority brothers and sisters from
+          political vandalism.
+        </Typography>
       </Box>
       <Container sx={{ pt: 5 }} maxWidth="xl">
         <Box
